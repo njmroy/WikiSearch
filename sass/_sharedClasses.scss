@@ -1,0 +1,38 @@
+// Colors for SearchMe logo
+.blue {
+    color: #4885ed;
+  }
+  
+.red {
+    color: red;
+    }
+  
+.yellow {
+    color: yellow;
+  }
+  
+.green {
+    color: green;
+  }
+  // Formatting for logo Exclamation mark 
+.exclaim {
+    display: inline-block;
+    font-size: 2.5rem;
+    transform: rotate(12deg);
+    @include mq(768px) {
+      font-size: 5rem;
+    }
+  }
+  // Formatting to put screen reader info off screen
+.offscreen {
+    position: absolute;
+    left: -10000px;
+  }
+  
+.none {
+    display: none;
+  }
+  
+.flex {
+    display: flex;
+  }
